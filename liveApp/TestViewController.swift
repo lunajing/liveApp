@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import GPUImage
+import LFLiveKit
 
 class TestViewController: UIViewController {
     var videoCamera: GPUImageVideoCamera!

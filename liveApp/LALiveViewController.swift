@@ -31,7 +31,9 @@ class LALiveViewController: UIViewController {
         }
         imageView.sd_setImage(with: URL(string: liveItem.creator.portrait), placeholderImage: nil)
         
-        player = IJKFFMoviePlayerController(contentURLString: liveItem.stream_addr, with: nil)
+        player = IJKFFMoviePlayerController(contentURLString: "rtmp://10.1.1.102:1990/liveApp/room", with: nil)
+        player.shouldShowHudView = true
+        player.setPlayerOptionIntValue(0, forKey: "packet-buffering")
         player.prepareToPlay()
         player.view.frame = view.bounds
         view.addSubview(player.view)

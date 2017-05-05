@@ -9,10 +9,11 @@ source 'https://git.coding.net/hging/Specs.git'
   # Pods for liveApp
   target 'liveApp' do
     pod 'SnapKit'
-    pod ‘AFNetworking’
-    pod ‘SDWebImage’
+    pod 'AFNetworking'
+    pod 'SDWebImage'
+    pod 'LFLiveKit'
     pod 'YYModel'
-    pod 'GPUImage'
+#    pod 'GPUImage'
   end
 
   target 'liveAppUITests' do

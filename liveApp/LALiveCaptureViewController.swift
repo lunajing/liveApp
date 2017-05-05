@@ -8,7 +8,7 @@
 
 import UIKit
 import AVFoundation
-import GPUImage
+import LFLiveKit
 
 class LALiveCaptureViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate, AVCaptureAudioDataOutputSampleBufferDelegate {
     var captureSession: AVCaptureSession!

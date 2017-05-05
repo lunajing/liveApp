@@ -56,7 +56,7 @@ class ViewController: UIViewController {
     }
     
     func gotoCapture() {
-        navigationController?.pushViewController(LALiveCaptureViewController(), animated: true)
+        navigationController?.pushViewController(LALiveShowingViewController(), animated: true)
     }
 
     override func didReceiveMemoryWarning() {

@@ -6,7 +6,9 @@
 //  Copyright © 2016年 guikz. All rights reserved.
 //
 
-#import <GPUImage/GPUImage.h>
+//#import <GPUImage/GPUImage.h>
+
+#import "GPUImage.h"
 
 @class GPUImageCombinationFilter;
 

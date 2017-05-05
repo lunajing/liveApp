@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - GPUImage (0.1.7)
+  - LFLiveKit (2.6)
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
@@ -23,18 +23,18 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
-  - GPUImage
+  - LFLiveKit
   - SDWebImage
   - SnapKit
   - YYModel
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  LFLiveKit: 2219563721f8aa0f188effc3395a06e2d53b23f2
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: c6119da1b4d8792b2f3b7767dd56299164110f5e
+PODFILE CHECKSUM: acdc24b55376a58cbf17ab98757b4a2d62db5a69
 
 COCOAPODS: 1.1.1
